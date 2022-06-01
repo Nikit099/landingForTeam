@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/landingForTeam/static/css/main.c2fdc198.css",
+    "main.js": "/landingForTeam/static/js/main.0cb99838.js",
+    "index.html": "/landingForTeam/index.html",
+    "main.c2fdc198.css.map": "/landingForTeam/static/css/main.c2fdc198.css.map",
+    "main.0cb99838.js.map": "/landingForTeam/static/js/main.0cb99838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2fdc198.css",
+    "static/js/main.0cb99838.js"
+  ]
+}
