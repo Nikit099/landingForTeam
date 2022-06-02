@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/landingForTeam/static/css/main.cde2cd8b.css",
-    "main.js": "/landingForTeam/static/js/main.a252ef90.js",
+    "main.css": "/landingForTeam/static/css/main.730e6d97.css",
+    "main.js": "/landingForTeam/static/js/main.18d593ce.js",
     "index.html": "/landingForTeam/index.html",
-    "main.cde2cd8b.css.map": "/landingForTeam/static/css/main.cde2cd8b.css.map",
-    "main.a252ef90.js.map": "/landingForTeam/static/js/main.a252ef90.js.map"
+    "main.730e6d97.css.map": "/landingForTeam/static/css/main.730e6d97.css.map",
+    "main.18d593ce.js.map": "/landingForTeam/static/js/main.18d593ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.cde2cd8b.css",
-    "static/js/main.a252ef90.js"
+    "static/css/main.730e6d97.css",
+    "static/js/main.18d593ce.js"
   ]
 }
