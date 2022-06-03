@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/landingForTeam/static/css/main.56c1c604.css",
-    "main.js": "/landingForTeam/static/js/main.80ce76fd.js",
+    "main.css": "/landingForTeam/static/css/main.b647d3f3.css",
+    "main.js": "/landingForTeam/static/js/main.0bbb3259.js",
+    "static/media/people.png": "/landingForTeam/static/media/people.148c72c0f398e8a6f7ef.png",
+    "static/media/controller.png": "/landingForTeam/static/media/controller.dd19dd3081578fcc28fb.png",
+    "static/media/dollar.png": "/landingForTeam/static/media/dollar.84cf06a861a4cfb9ad42.png",
+    "static/media/toolkit.png": "/landingForTeam/static/media/toolkit.dc687b4542831c77241b.png",
+    "static/media/upward-arrow.png": "/landingForTeam/static/media/upward-arrow.e1acbc9ddc94881e0e2f.png",
+    "static/media/growth.png": "/landingForTeam/static/media/growth.11b11d1788b953a36398.png",
     "index.html": "/landingForTeam/index.html",
-    "main.56c1c604.css.map": "/landingForTeam/static/css/main.56c1c604.css.map",
-    "main.80ce76fd.js.map": "/landingForTeam/static/js/main.80ce76fd.js.map"
+    "main.b647d3f3.css.map": "/landingForTeam/static/css/main.b647d3f3.css.map",
+    "main.0bbb3259.js.map": "/landingForTeam/static/js/main.0bbb3259.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c1c604.css",
-    "static/js/main.80ce76fd.js"
+    "static/css/main.b647d3f3.css",
+    "static/js/main.0bbb3259.js"
   ]
 }
