@@ -12,11 +12,13 @@ function Navbar() {
                 </div>
 
                 <ul className='list'>
-                    <li className='active' >Главная</li>
-                    <li>Тарифы</li>
-                    <li>Каталог курсов</li>
-                    <li>Компания</li>
-                    <li>Поддержка</li>
+                <li  className='black' >Мои курсы</li>
+
+                <li className='black' >Лутрейтиг</li>
+                    <li className='blue'>Войти как ученик</li>
+                  
+                    <li className='blue'>Войти как партнер</li>
+                  
                 </ul>
             </div>
         </div>

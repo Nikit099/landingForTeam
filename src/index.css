@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+button {
+  cursor: pointer;
+}
 .app {
   width: 100vw;
   display: flex;
@@ -29,6 +31,10 @@
   align-items: center;
   gap: 5px;
 }
+.list .blue {
+  cursor: pointer;
+  color: #00aead;
+}
 .list {
   display: flex;
   list-style-type: none;
@@ -40,22 +46,29 @@
   margin: 20px auto 0;
   height: 780px;
 }
+.container_img {
+  height: 780px;
+  margin: 20px auto 0;
+  max-width: 1400px;
+}
 .main_container .btn {
-  bottom: 160%;
+  bottom: 150%;
   position: relative;
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .main_container .try {
   background-color: #00aead;
   border: none;
-  padding: 20px;
-  width: 400px;
-  border-radius: 40px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 12px;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 18px;
   transition: 0.7s;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
 }
 .main_container .try:hover {
   transform: scale(1.1);
@@ -74,7 +87,8 @@
 }
 .main_container h1 {
   position: relative;
-  bottom: 170%;
+  bottom: 160%;
+  font-weight: 500;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -87,10 +101,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 2200px;
+  max-width: 1400px;
   flex-wrap: wrap;
   z-index: 1;
   top: 50px;
+  margin: auto;
   margin-bottom: 200px;
   gap: 40px;
 }
@@ -99,7 +114,7 @@
 }
 .container .box {
   position: relative;
-  width: 390px;
+  width: 320px;
   height: 500px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.158);
   border-radius: 15px;
@@ -112,10 +127,19 @@
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
 }
+.close {
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  left: 570px;
+}
+.close:hover {
+  color: red;
+}
 .modal_container {
   position: fixed;
   z-index: 4;
-  width: 99vw;
+  width: 100%;
   height: 100vh;
   margin: 0;
   background-color: #0000008c;
@@ -129,7 +153,7 @@
 }
 .modal {
   width: 600px;
-  height: 500px;
+  height: 550px;
   border-radius: 15px;
   background-color: #ffffff;
   margin: auto;
@@ -148,7 +172,8 @@
   border: none;
   padding: 15px;
   width: 200px;
-  border-radius: 40px;
+  border-radius: 20px;
+
   color: aliceblue;
   font-size: 15px;
   transition: 0.4s;
@@ -165,7 +190,7 @@
   margin: 30px 0 10px 0;
 }
 .contInp input {
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
   max-width: 100%;
   border: 1px solid rgb(190, 190, 190);
   border-radius: 5px;
@@ -177,7 +202,7 @@
   text-align: center;
   transform: translateY(110px);
   transition: 0.5s;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .container .box:hover .content {
@@ -193,6 +218,9 @@
 }
 .container .box:hover .con3 h2 {
   color: #f9a81b;
+}
+.container .box:hover .con4 h2 {
+  color: rgb(2, 31, 196);
 }
 .container .box .content h2 {
   position: absolute;
@@ -211,7 +239,8 @@
 }
 
 .container .box .content p {
-  font-size: 1.8em;
+  font-size: 19px;
+  margin-top: 14px;
   color: rgb(0, 0, 0);
   font-weight: 300;
 }
@@ -227,4 +256,44 @@
   text-decoration: none;
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.black {
+  color: #000000;
+  cursor: pointer;
+}
+.imgBlock {
+  position: absolute;
+  width: 50px;
+  top: -150px;
+}
+.imgBlock img {
+  width: 100%;
+}
+.game {
+  width: 100px;
+}
+.arrow {
+  position: absolute;
+  z-index: 1;
+  top: -160px;
+  left: 0px;
+}
+.dollar {
+  width: 80px;
+}
+.increase {
+  position: absolute;
+  top: -110px;
+  left: 60px;
+}
+.people {
+  width: 80px;
+}
+.upwardArrow {
+  position: absolute;
+  top: -110px;
+  left: 0px;
+}
+.toolkit {
+  width: 90px;
 }
